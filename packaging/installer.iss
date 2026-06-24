@@ -13,7 +13,7 @@ SolidCompression=yes
 
 [Files]
 
-Source: "dist\PDF Presenter\*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs
+Source: "..\dist\PDF Presenter\*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs
 
 
 [Icons]
