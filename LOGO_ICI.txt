@@ -1,0 +1,14 @@
+Pour utiliser votre propre logo :
+
+1. Copiez votre image dans ce dossier (à côté de main.py)
+2. Renommez-la en :
+      logo.png   ← recommandé
+   ou logo.jpg
+   ou logo.jpeg
+   ou logo.webp
+
+3. Relancez le programme — votre logo apparaîtra automatiquement
+   dans l'en-tête de la page d'accueil ET comme icône de l'application.
+
+Taille recommandée : 256×256 px minimum, fond transparent (PNG).
+Aucune modification de code nécessaire.
