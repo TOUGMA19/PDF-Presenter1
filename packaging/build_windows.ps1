@@ -14,12 +14,14 @@ python -m PyInstaller `
  main.py
 
 
-Write-Host "Creating ZIP..."
+Write-Host "Installing Inno Setup..."
 
-Compress-Archive `
- -Path "dist/PDF Presenter" `
- -DestinationPath "dist/PDF-Presenter-Windows.zip" `
- -Force
+choco install innosetup -y
+
+
+Write-Host "Creating installer..."
+
+iscc packaging/installer.iss
 
 
 Write-Host "Build finished"
