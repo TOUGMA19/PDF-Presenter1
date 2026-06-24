@@ -9,7 +9,7 @@ jobs:
 
   windows:
 
-    runs-on: windows-latest
+    runs-on: windows-2022
 
     steps:
 
@@ -18,7 +18,7 @@ jobs:
 
     - uses: actions/setup-python@v5
       with:
-        python-version: "3.12"
+        python-version: "3.11"
 
 
     - name: Installer dépendances
@@ -41,7 +41,7 @@ jobs:
 
   macos:
 
-    runs-on: macos-latest
+    runs-on: macos-13
 
     steps:
 
@@ -50,7 +50,7 @@ jobs:
 
     - uses: actions/setup-python@v5
       with:
-        python-version: "3.12"
+        python-version: "3.11"
 
 
     - name: Installer dépendances
