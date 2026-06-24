@@ -7,6 +7,8 @@ OutputBaseFilename=PDF-Presenter-Setup
 Compression=lzma
 SolidCompression=yes
 
+SetupIconFile=logo.png
+
 [Files]
 Source: "..\dist\PDF Presenter\*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs
 
